@@ -15,12 +15,11 @@ Minimal Requirements: Only a regular laptop and a budget camera are required, ma
 
 
 ## Installation
-Clone the repository and install the required dependencies:
+Clone the repository and install the required Python dependencies:
 
-`pip install opencv-python `
+`pip install opencv-python`
 
 Then download the required model files from `https://drive.google.com/drive/folders/1USEdy_7uvwO4PIqsQJq8kT0sX4H4f7nn` and put the downloaded folder under the `FOLDER_NAME` directory.
-
 
 
 ## Usage
