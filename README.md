@@ -4,6 +4,8 @@
 
 VirtuWheel is a 3D driving simulator that offers a unique experience by allowing users to control the steering wheel using their body pose. In contrast to traditional simulators that require specific hardware like a physical steering wheel and gear shift, our system only needs a regular laptop and a budget camera, and an optional Logitech command board for enhanced controllability. The simulator immerses users in a realistic real-world environment, enhancing the driving experience while making it more accessible.
 
+![](./assets/img.png)
+
 ![](./assets/demo2.gif)
 
 ![](./assets/demo.gif)
