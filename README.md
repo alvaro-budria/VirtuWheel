@@ -27,7 +27,16 @@ VirtuWheel is a 3D driving simulator that offers a unique experience by allowing
 ### Python Real-time Pose Detector
 Clone the repository and install the required dependencies:
 
-`pip install opencv-python numpy>=1.24.0`
+`pip install opencv-python numpy>=1.24.0 mediapipe`
+
+We changed some parameters that are hardcoded in Mediapipe's code base. Go to `solutions/drawing_utils.py` in Mediapipe's library (typically at `~/anaconda3/lib/python<VERSION>/site-packages/mediapipe/python/solutions/drawing_utils.py`), and set
+
+```
+_PRESENCE_THRESHOLD = 0.05
+_VISIBILITY_THRESHOLD = 0.1
+```
+
+at the beginning of the file.
 
 Then download the required model files (in a .zip) from [this Google Drive folder](`https://drive.google.com/drive/folders/1USEdy_7uvwO4PIqsQJq8kT0sX4H4f7nn`) and put the unzipped folder `OpenPose_models` under the home directory of the project.
 
