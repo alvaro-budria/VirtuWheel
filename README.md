@@ -38,7 +38,7 @@ _VISIBILITY_THRESHOLD = 0.1
 
 at the beginning of the file.
 
-Then download the required model files (in a .zip) from [this Google Drive folder](`https://drive.google.com/drive/folders/1USEdy_7uvwO4PIqsQJq8kT0sX4H4f7nn`) and put the unzipped folder `OpenPose_models` under the home directory of the project.
+Then download the required model files (in a .zip) from [this Google Drive folder](https://drive.google.com/drive/folders/1USEdy_7uvwO4PIqsQJq8kT0sX4H4f7nn) and put the unzipped folder `OpenPose_models` under the home directory of the project.
 
 
 ### Unity 3D Environment
